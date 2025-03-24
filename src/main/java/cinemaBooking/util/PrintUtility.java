@@ -4,6 +4,9 @@ import cinemaBooking.exception.BookingException;
 import cinemaBooking.model.Booking;
 import cinemaBooking.model.Hall;
 
+/*
+utility to print common/general messages
+ */
 public class PrintUtility {
 
     public static void printMessageWithNewLine(String message){

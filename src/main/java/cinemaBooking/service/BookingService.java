@@ -6,6 +6,10 @@ import cinemaBooking.model.Hall;
 
 import java.awt.print.Book;
 
+/*
+booking service interface to expose methods that can be used to perform actions on a hall
+delete method is added but not yet implemented fully. TODO - implement delete method
+ */
 public interface BookingService {
 
     Booking bookDefaultSelection(int people, String start, Hall hall) throws BookingException;

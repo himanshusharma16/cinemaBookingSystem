@@ -2,6 +2,9 @@ package cinemaBooking.validator;
 
 import cinemaBooking.exception.BookingException;
 
+/*
+class to help validate user inputs
+ */
 public class BookingValidator {
 
     public static boolean validateUserTheatreInput(String input){

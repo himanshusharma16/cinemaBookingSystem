@@ -1,5 +1,8 @@
 package cinemaBooking.util;
 
+/*
+utility to extract seat information from user provided input
+ */
 public class SeatExtractionUtility {
 
     public static int extractRowIndex(String input){
