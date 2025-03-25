@@ -103,7 +103,7 @@ public class CinemaBookingServiceImpl implements BookingService {
     }
 
     @Override
-    public Booking fetch(String bookingId, Hall hall) throws BookingException{
+    public Booking fetch(String bookingId, Hall hall) throws BookingException {
         var bookings = hall.getBookings();
         if(bookings == null || bookings.isEmpty() || bookings.get(bookingId) == null)
             throw new BookingException("No booking found with Booking Id - "+bookingId);

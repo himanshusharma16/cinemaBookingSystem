@@ -15,7 +15,7 @@ public class CinemaBooking {
     Scanner sc = new Scanner(System.in);
     public static final String ERROR_MSG = "Sorry, something went wrong. Please refer below for more info on error. The program will exit now!";
     public static final String FIRST_MSG = "Please define movie title and seating map in [Title] [Row] [SeatsPerRow] format:";
-    public static final String INCORRECT_DATA = "Data not entered in correct format. Would you like to try again? Enter anything to try, and 0 to exit.";
+    public static final String INCORRECT_DATA = "Data not entered in correct format[TITLE_WITHOUT_SPACES ROW<=26 SEATS_PER_ROW<=50 ]. Would you like to try again? Enter anything to try, and 0 to exit.";
 
     public static void main(String... args){
         try {
