@@ -4,11 +4,9 @@ import cinemaBooking.exception.BookingException;
 import cinemaBooking.model.Booking;
 import cinemaBooking.model.CinemaHall;
 import cinemaBooking.model.Hall;
-import cinemaBooking.util.PrintUtility;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.awt.print.Book;
 import java.util.ArrayList;
 import java.util.List;
 

@@ -5,12 +5,11 @@ import cinemaBooking.model.Booking;
 import cinemaBooking.model.CinemaHall;
 import cinemaBooking.model.Hall;
 import cinemaBooking.model.Seating;
-import org.junit.jupiter.api.*;
-import org.mockito.Mock;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
-import java.awt.image.AreaAveragingScaleFilter;
-import java.awt.print.Book;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import java.util.ArrayList;
