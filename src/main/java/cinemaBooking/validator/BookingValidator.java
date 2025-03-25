@@ -32,7 +32,7 @@ public class BookingValidator {
         if(input == null)
             return true;
         else {
-            if(input.length() > 3)
+            if(input.length() < 2 || input.length() > 3)
                 isValid = false;
             if(input.charAt(0) < 'A' || input.charAt(0) > 'Z' || input.charAt(1) < '0' || input.charAt(1) > '9')
                 isValid = false;
