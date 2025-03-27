@@ -1,11 +1,7 @@
 package cinemaBooking.model;
 
-import lombok.Getter;
-
 import java.util.HashMap;
 
-
-@Getter
 public class CinemaHall extends Hall{
 
     public CinemaHall(int rows, int cols){
@@ -21,4 +17,5 @@ public class CinemaHall extends Hall{
         this(rows,cols);
         this.title = title;
     }
+
 }
